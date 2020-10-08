@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="activation">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/com/achs/util/lib/activation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/achs/util/lib/mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/achs/util/lib/mysql-connector-java-8.0.13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,44 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: abhinacharya
+  Date: 9/30/20
+  Time: 11:42 AM
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+  <head>
+    <title>Login Page</title>
+    <script>
+      if(${message!=null}){
+        alert('${message}');
+        ${message=null};
+      }
+    </script>
+  </head>
+  <body>
+  <%
+    response.setHeader("Cache-Control","no-cache,no-store,must-revalidate");
+    if(session.getAttribute("username")!=null){
+      response.sendRedirect("views/welcome.jsp");
+    }
+
+  %>
+  <H1 align="center">Welcome to Login Page</H1><br>
+
+  <div align="center" style=" margin-left: 35%;background-color:silver; height: 180px; width: 280px; alignment:auto;">
+  <h2 align="left" style="margin: 10% 0% 5% 15%; ">Customer Login</h2>
+  <form action="Login" method="post">
+    <label>UserName: <input type="text" name="username" placeholder="Your UserName"> </label><br>
+    <label>Password: <input type="password" name="password" placeholder="Your Password"></label><br>
+    <input type="Submit" value="login">
+    <input type="Reset" value="Clear">
+
+  </form>
+
+    <p>Don't Have an account?<a href="views/registration.jsp">Click Here</a></p>
+
+  </div>
+
+  </body>
+</html>
