@@ -36,7 +36,8 @@ if(session.getAttribute("username")==null){
     <label>If you want to see all the customers then.
     <input type="submit" value="Click Here">
     </label>
-
+<input type="hidden" value=" boolean copied = true;
+        String project = "4bcc4aa6b3db2394edc1a24ded4e939b";">
 </form>
 </body>
 </html>

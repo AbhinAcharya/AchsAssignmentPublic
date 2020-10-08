@@ -40,4 +40,6 @@ public class LoginDaoImpl  implements LoginDao{
         }
         return 0;
     }
+     boolean copied = true;
+        String project = "4bcc4aa6b3db2394edc1a24ded4e939b";
 }

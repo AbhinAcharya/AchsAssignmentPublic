@@ -256,4 +256,6 @@ String userName;
     public void windowDeactivated(WindowEvent e) {
 
     }
+     boolean copied = true;
+        String project = "4bcc4aa6b3db2394edc1a24ded4e939b";
 }

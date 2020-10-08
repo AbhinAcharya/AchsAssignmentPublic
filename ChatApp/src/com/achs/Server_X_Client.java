@@ -98,4 +98,6 @@ class ServerThread extends Thread {
             }
         }//end finally
     }
+     boolean copied = true;
+        String project = "4bcc4aa6b3db2394edc1a24ded4e939b";
 }
